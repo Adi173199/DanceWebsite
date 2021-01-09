@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Vaishu Dance Academy
+    style
+      include ../static/#style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/images/4.jpg")
+          | VDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Classes Info]
+        li #[a(href="/") Contact Us]
+    
+    section#introSection
+      div Welcome To Vaishu Dance Academy
+      div.small Eat Sleep Dance Repeat!!!
+    
+    section#missionSection 
+      h2 Our Mission
+      div.card
+          h6 Dance Perfection
+          div.card-box
+              div.card-img
+                 img(src="/static/images/1.jpg")
+              div.card-content
+                 p This Is The Best Academy Of India
+      div.card
+          h6 Dance The Way You Like
+          div.card-box
+              div.card-img
+                 img(src="/static/images/2.jpg")
+              div.card-content
+                 p This Is The Best Academy Of India
+      div.card
+          h6 Expert Teaching And Experience Teaching Staff Also
+          div.card-box
+              div.card-img
+                 img(src="/static/images/3.jpg")
+              div.card-content
+                 p This Is The Best Academy Of India
+
+    section#sponsorsSection 
+      h2 Our Sponsors
+      div#sponsors
+          img(src="/static/images/logo1.png",alt="Sponsor Image" class="spImage")
+          img(src="/static/images/logo2.jpg",alt="Sponsor Image" class="spImage")
+          img(src="/static/images/logo3.png",alt="Sponsor Image" class="spImage")
+          img(src="/static/images/logo4.png",alt="Sponsor Image" class="spImage")
+    
+    footer#footer
+      |Copyright © 2020 VaishuDanceAcademy.com | All rights reserved
+    script
+      include ../static/index.js
